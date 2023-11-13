@@ -1,0 +1,65 @@
+:root{
+        /* Page Widths*/
+    --bodyWidth:100vw;
+
+    --divisorWidth:1016px;
+
+    --imgBigWidth:280px;
+    --imgSmallWidth:108px;
+
+    --containerBigWidth:1016px;
+    --containerSmallWidth:704px;
+
+    --cardXXXLWidth:1016px;
+    --cardXXlWidth:984px;
+    --cardXLWidth:968px;
+    --cardLWidth:944px;
+    --cardMWidth:936px;
+    --cardSWidth:340px;
+    --cardXSWidth:280px;
+
+
+
+        /* Page Heights */
+    --divisorHeight:29px;
+
+    --imgBigHeight:200px;
+    --imgSmallHeight:108;
+
+    --containerXXLHeight:2141px;
+    --containerXLHeight:1142px;
+    --containerLHeight:724px;
+    --containerMHeight:584px;
+    --containerSHeight:539px;
+    --containerXSHeight:496px;
+    --containerXXSHight:384px;
+
+    --cardXXLHeight: 2045px;
+    --cardXLHeight:1046px;
+    --cardLHeight:636px;
+    --cardMHeight:628px;
+    --cardSHeight:451px;
+    --cardXSHeight:400px;
+    --cardXXSHeight:399px;
+
+    --cardSmallXLHeight:387px;
+    --cardSmallLHeight:345px;
+    --cardSmallMHeight:340px;
+    --cardSmallSHeight:232px;
+
+        /* Page colors */
+    --blue: rgb(31,199,212);
+    --white: rgb(255,255,255);
+
+    --background: rgb(236,246,255);
+    --navBackground:rgb(39,38,44);
+
+    --titleColor: rgb(40,13,95);
+    --importantColor: rgb(118,69,217);
+    --subtitleColor: rgb(122,110,173);
+    --textColor: rgb(42,19,103);
+    --linkColor: rgb(122,110,173);
+    --descriptionColor:rgb(63,63,63);
+    --shadow:rgb(248,249,255);
+
+}
