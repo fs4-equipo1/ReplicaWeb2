@@ -10,11 +10,17 @@
     <div class="divisor">
         <div id="settingsButton" class="settingsButton" onclick="openModal()">ABRIR MODAL</div>
     </div>
-    <div id="elModal" class="elModal">
-        <div class="settingsCard"></div>
-        <div class="settingsHead">
-            <div class="settingsHeadText"></div>
-            <div class="closeButton"></div>
+    <div id="elModal" class="elModal" onclick="closeModal()">
+        <div class="settingsCard">
+            <div class="settingsHead">
+                <div class="settingsHeadText">Settings</div>
+                <div class="closeButton" onclick="closeModal()">+</div>
+            </div>
+            <div class="settingsOptions">
+                <div>option1</div>
+                <div>option2</div>
+                <div>option3</div>
+            </div>
         </div>
     </div>
 
