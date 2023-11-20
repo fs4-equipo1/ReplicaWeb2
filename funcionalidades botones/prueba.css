@@ -20,21 +20,47 @@
     justify-content: center;
 }
 
+/* el modal a partir de aqui */
+
 .elModal{
     position: fixed;
     top: 0;
     left: 0;
     z-index: 9999;
+    align-items: center;
     height: 100vh;
     width: 100vw;
     background-color: rgba(100, 100, 100, 0.547);
-    display: flex;
+    display: none;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.settingsHead{
+.settingsCard{
     display: flex;
-    height: 75px;
-    margin: 25px 25px;
+    flex-direction: column;
+    height: 400px;
+    width: 400px;
 
+    background-color: darkgray;
+
+
+    border: solid black 1px;
+    border-radius: 25px;
+
+    overflow: hidden;
+}
+
+
+.settingsHead{
+    font-size: larger;
+
+    padding: 25px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: gray;
 }
