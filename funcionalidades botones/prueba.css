@@ -1,0 +1,40 @@
+.divisor{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.settingsButton{
+    display: flex;
+    background-color: magenta;
+    width: fit-content;
+    height: 50PX;
+    border: purple;
+    border-width: 2px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.elModal{
+    position: fixed;
+    top: 50vh;
+    left: 50vw;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    background-color: darkgray;
+    border-radius: 50px;
+}
+
+.settingsHead{
+    display: flex;
+    height: 75px;
+    margin: 25px 25px;
+
+}
