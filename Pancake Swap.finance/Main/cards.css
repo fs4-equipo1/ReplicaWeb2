@@ -59,6 +59,8 @@
   cursor: pointer;
 }
 
-.swap-on-hover:hover > .swap-on-hover__front-image {
-  opacity: 0;
+.card:hover {
+  .swap-on-hover > .swap-on-hover__front-image {
+    opacity: 0;
+  }
 }
