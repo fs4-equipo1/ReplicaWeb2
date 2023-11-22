@@ -10,6 +10,11 @@
   width: auto;
   margin: 10px;
   overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 250px;
+  width: 150px;
 }
 
 .card img {
@@ -19,12 +24,9 @@
 }
 
 .card-text {
-  width: 120px;
   padding: 10px;
   flex-wrap: wrap;
-  margin-top: 120px;
   height: auto;
-
 }
 
 .card-text p {
@@ -43,14 +45,17 @@
 
 .swap-on-hover {
   position: relative;
+  width: 108px;
+  height: 108px;
+  margin: 0;
 }
 
 .swap-on-hover img {
-  right: 0px;
+  top: 0;
+  left: 0;
   position: absolute;
   overflow: hidden;
-  width: 108px;
-  height: 108px;
+  object-fit: cover;
 }
 
 .swap-on-hover .swap-on-hover__front-image {
@@ -64,3 +69,4 @@
     opacity: 0;
   }
 }
+
