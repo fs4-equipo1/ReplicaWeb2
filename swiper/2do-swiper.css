@@ -1,0 +1,37 @@
+.card-container {
+    width: 20vw;
+    height: 30vw;
+  
+}
+
+.image {
+    width: 20vw;
+    height: 15vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.carrusel .swiper-button-prev {
+    --swiper-navigation-size: 10px;
+    background-color:   white;
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    --swiper-theme-color: rgb(46, 169, 226);
+    font-weight: bold;
+    margin-left: 20px;
+    outline: 2px solid rgb(46, 169, 226);
+  }
+  
+   .carrusel .swiper-button-next {
+    --swiper-navigation-size: 10px;
+    background-color:  white;
+    width: 25px;
+    height: 25px;
+    border-radius: 30px;
+    --swiper-theme-color: rgb(46, 169, 226);
+    font-weight: bold;
+    margin-right: 20px;
+    outline: 2px solid rgb(46, 169, 226);
+  }
+  
