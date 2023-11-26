@@ -73,5 +73,23 @@
 .ecosystemTitle {
   color: #9a6aff;
   font-size: 40px;
-  margin-left: 650px;
+  margin: 20px;
+}
+
+.ecosystemContainer {
+  width: 80vw;
+  justify-content: left;
+  display: flex;
+  position: relative;
+
+}
+
+.ecosystemImg {
+  width: 340px;
+  height: 340px;
+}
+
+.ecosystemImgLeft {
+  width: 296px;
+  height: 360px;
 }
