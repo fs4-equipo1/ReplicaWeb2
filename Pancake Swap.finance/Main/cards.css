@@ -17,6 +17,11 @@
   width: 150px;
 }
 
+.cardlink {
+  text-decoration: none;
+  color: #7a6eaa;
+}
+
 .card img {
   width: 100%;
   height: auto;
@@ -67,6 +72,10 @@
 .card:hover {
   .swap-on-hover > .swap-on-hover__front-image {
     opacity: 0;
+  }
+  .cardlink {
+    transition: 0.2s linear;
+    color: #1fc7d4;
   }
 }
 
