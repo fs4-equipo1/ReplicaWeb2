@@ -8,7 +8,6 @@
 }
 
 .card {
-  width: auto;
   margin: 10px;
   overflow: hidden;
   display: flex;
