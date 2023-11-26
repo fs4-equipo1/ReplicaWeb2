@@ -77,19 +77,30 @@
 }
 
 .ecosystemContainer {
-  width: 80vw;
+  width: 60vw;
   justify-content: left;
   display: flex;
   position: relative;
-
+  border-radius: 25px;
+  background-color: aliceblue;
+  
 }
 
 .ecosystemImg {
   width: 340px;
   height: 340px;
+  gap: 25px ;
 }
 
 .ecosystemImgLeft {
   width: 296px;
   height: 360px;
+}
+
+.discoverEcosystem {
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
 }
