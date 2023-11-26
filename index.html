@@ -4,13 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pancakeswap</title>
+    <script src="/swiper/swiper.js"></script>
   </head>
   <body>
     <div class="container-general">
       <nav class="navbar"></nav>
       <section class="section-principal">
         <!-- <section class="section" style="display: block; height: 100vh;"> -->
-        <div class="swiper carrusel">
+        <div class="swiperPrincipal carrusel">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="card-container" style="background-image: url()">
@@ -63,28 +64,7 @@
 
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
         <script>
-          const swiperPrincipal = new Swiper(".swiper", {
-            // slidesPerView: 3,
-            // spaceBetween: 15,
-            autoplay: {
-              delay: 5000,
-            },
-            direction: "horizontal",
-            loop: true,
-            pagination: {
-              el: ".swiper-pagination",
-              type: "bullets",
-              clickable: true,
-            },
-
-            // navigation: {
-            //   nextEl: ".swiper-button-next",
-            //   prevEl: ".swiper-button-prev",
-            // },
-            scrollbar: {
-              el: ".swiper-scrollbar",
-            },
-          });
+          
         </script>
 
         <div class="favourite-dex">
@@ -143,7 +123,7 @@
         <!-- iconos con hover  -->
       </div>
       <section class="section" style="display: block; height: 100vh">
-        <div class="swiper carrusel">
+        <div class="swiperSecundario carrusel">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
               <div class="card-container" style="background-image: url()">
@@ -203,28 +183,6 @@
         </div>
 
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-        <script>
-          const swiper = new Swiper(".swiper", {
-            // slidesPerView: 3,
-            // spaceBetween: 15,
-
-            direction: "horizontal",
-            loop: false,
-            pagination: {
-              el: ".swiper-pagination",
-              type: "bullets",
-              clickable: true,
-            },
-
-            navigation: {
-              nextEl: ".swiper-button-next",
-              prevEl: ".swiper-button-prev",
-            },
-            scrollbar: {
-              el: ".swiper-scrollbar",
-            },
-          });
-        </script>
       </section>
       <div class="favorite-dex">
         <!-- boton wallet -->
