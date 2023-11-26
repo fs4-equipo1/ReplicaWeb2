@@ -88,8 +88,10 @@
 
 .ecosystemImg {
   width: 340px;
+  position: relative;
   height: 340px;
-  gap: 25px ;
+  left: -52px;
+  margin-top: 25px;
 }
 
 .ecosystemImgLeft {
