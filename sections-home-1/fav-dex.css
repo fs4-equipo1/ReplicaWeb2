@@ -1,0 +1,99 @@
+@import './root.css';
+
+@font-face {
+    font-family: Kanit;
+    src: url(nKKZ-Go6G5tXcraVGwA.ttf);
+}
+
+body {
+  margin: 0;
+  font-family: Kanit;
+  
+}
+
+p {
+    margin: 0;
+    }
+
+
+.fav-dex {
+    height: 994px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-XXL {
+    width: 100%;
+    padding-top: var(--space-48px);
+    padding-bottom: var(--space-48px);
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.changing-banner {
+    position: relative;
+    padding-top: 0px;
+    margin-bottom: 30px;
+    height: 232px;
+    width: 1075px;
+    background-color: rgba(78, 93, 177, 0.788);
+}
+
+.fav-dex-content {
+    
+    height: 636px;
+    max-width: 1075px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.fav-dex-text-container {
+    width: 50%;
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+}
+
+.XL-title {
+    color: var(--colors-light-text);
+    font-size: 88px;
+    font-weight: 600;
+    line-height: 1.1;
+    padding-right: 10px;
+    margin-bottom: 16px;
+    text-align: left;
+}
+
+.XL-purple-title {
+    display: flex;
+    flex-direction: row;
+    color: var(--colors-light-secondary);
+}
+.XL-last-title {
+    margin-left: 8px;
+    color: var(--colors-light-text);
+}
+
+.text1 {
+    font-size: 24px;
+    color: rgb(122, 110, 170);
+    font-weight: 600;
+    max-width: 600px;
+    margin-bottom: 24px;
+}
+
+.button-container-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.space-bunny-animation {
+    margin-right: -65px;
+    margin-bottom: -50px;
+}
