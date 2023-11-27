@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="prueba.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="divisor">
+        <div id="settingsButton" class="settingsButton" onclick="openModal()">ABRIR MODAL</div>
+    </div>
+    <div id="elModal" class="elModal" onclick="closeModal()">
+        <div class="settingsCard">
+            <div class="settingsHead">
+                <div class="settingsHeadText">Settings</div>
+                <div class="closeButton" onclick="closeModal()">+</div>
+            </div>
+            <div class="settingsOptions">
+                <div>option1</div>
+                <div>option2</div>
+                <div>option3</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var boton = document.getElementById('settingsButton')
+        var modal = document.getElementById('elModal')
+
+        function openModal() {
+            modal.style.display = 'flex'
+        }
+
+        function closeModal(){
+            modal.style.display = 'none'
+        }
+    </script>
+</body>
+</html>
