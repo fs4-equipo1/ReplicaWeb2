@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pancakeswap</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="3er-swiper.css" />
+  
+  </head>
+  <body>
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="card-container">
+            <h4>Metamask</h4>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card-container">
+            <h4>Ledger</h4>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card-container">
+            <h4>ApolloX</h4>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card-container">
+            <h4>Alpaca Finance</h4>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="card-container">
+            <h4>Venus</h4>
+          </div>
+        </div>
+      </div>
+      <!-- Agrega la paginación si es necesario -->
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const swiper = new Swiper(".swiper-container", {
+          direction: "vertical",
+          loop: true,
+          autoplay: {
+            delay: 1, // Sin retraso entre diapositivas
+            disableOnInteraction: true,
+          },
+          // Agrega paginación si es necesario
+          // pagination: {
+          //   el: ".swiper-pagination",
+          //   clickable: true,
+          // },
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      media="(prefers-color-scheme: light)"
+      href="nav2style.css"
+    />
+    <link rel="stylesheet" media="prefers-color-scheme: dark" href="themedark.css" />
+   
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>My Navbar</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="divclass">
+          <input type="text" class="input" placeholder="Your question" />
+          <button class="button">Contact</button>
+        </div>
+        <ul class="nav-list">
+          <li><a href="#">Homepage</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Help</a></li>
+          <li class="switch">
+            <i class="bx bxs-sun"></i>
+            <i class="bx bxs-moon"></i>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <script>
+      const swith = document.querySelector(".switch");
+
+      swith.addEventListener("click", (e) => {
+        swith.classList.toggle("dark");
+        if (document.body.classList.contains("dark")) {
+    document.documentElement.setAttribute("data-theme", "dark");
+  } else {
+    document.documentElement.setAttribute("data-theme", "light");
+  }
+});
+    </script>
+  </body>
+</html>

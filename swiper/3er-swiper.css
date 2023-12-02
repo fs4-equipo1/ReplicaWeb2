@@ -1,0 +1,28 @@
+.card-container {
+    display: block;
+    object-fit: cover;
+    width: 75vw;
+    height: 60px;
+    padding: 60px 20px;
+    margin: auto;
+    border-radius: 30px;
+    text-align: left;
+    background-position: right;
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    font-weight: normal;
+    background-size: cover;
+  }
+
+  .card-container h4 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
