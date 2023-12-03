@@ -1,39 +1,40 @@
 @import "Pancake Swap.finance/Main/root.css";
+  .button{
 
-  .btnTransparent {
-    position: relative;
-    align-items: center;
+    border: 3px solid;
     border-radius: 16px;
+    padding: 0px 24px;
+
     cursor: pointer;
     display: inline-flex;
+
     font-family: inherit;
     font-size: 16px;
-    font-weight: 600;
     justify-content: center;
     letter-spacing: 0.03em;
     line-height: 1;
     opacity: 1;
     outline: 0px;
-    transition: 0.2s ease 0s, opacity 0.2s ease 0s;
-    height: 48px;
-    padding: 0px 24px;
+
+    transition: 0.2s ease;
+    box-shadow: #0e0e2c66 0px -1px 0px 0px inset;
+
+
+  }
+  .btnTransparent {
+    position: relative;
+    align-items: center;
+    cursor: pointer;
+    display: inline-flex;
+
     background-color: transparent;
-    border-width: 3px;
-    border-style: solid;
-    border-image: none;
+ 
     border-color: var(--colors-primary);
-    box-shadow: none;
     color: var(--colors-primary0f);
   }
   
   .btnBlue {
-    position: relative;
-    align-items: center;
-    border: 0px;
-    border-radius: 16px;
-    box-shadow: #0e0e2c66 0px -1px 0px 0px inset;
-    cursor: pointer;
-    display: inline-flex;
+
     font-family: inherit;
     font-size: 16px;
     font-weight: 600;

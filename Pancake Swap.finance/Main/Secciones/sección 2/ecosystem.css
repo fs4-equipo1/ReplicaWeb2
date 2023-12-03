@@ -1,0 +1,32 @@
+  .discoverEcosystem {
+    width: 100vw;
+    height: auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }  
+  
+  .ecosystemContainer {
+    width: 70vw;
+    height: auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+    border-radius: var(--radii-20px);
+    background-color: var(--colors-backgroundAlt);
+    
+  }
+  .earn {
+    flex-direction: row-reverse;
+  }
+
+  .ecosystemImg{
+    width: 400px;
+    height: 400px;
+
+    object-fit: contain;
+  }

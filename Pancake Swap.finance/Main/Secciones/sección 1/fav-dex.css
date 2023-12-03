@@ -1,0 +1,63 @@
+@import "Pancake Swap.finance/Main/root.css";
+
+.fav-dex {
+  width: 100%;
+  height: 994px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.changing-banner {
+  width: 1075px;
+  height: 232px;
+  margin-bottom: 30px;
+
+  background-color: var(--colors-backgroundAlt2);
+}
+
+.fav-dex-content {
+  height: 636px;
+  max-width: 1075px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.fav-dex-text-container {
+  width: 50%;
+  display: flex;
+  flex: 1 1 0%;
+  flex-direction: column;
+}
+
+.XL-title {
+  color: var(--colors-light-text);
+  font-size: 88px;
+  font-weight: 600;
+  line-height: 1.1;
+  padding-right: 10px;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.XL-purple-title {
+  display: flex;
+  flex-direction: row;
+  color: var(--colors-light-secondary);
+}
+.XL-last-title {
+  margin-left: 8px;
+  color: var(--colors-light-text);
+}
+
+.button-container-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.space-bunny-animation {
+  margin-right: -65px;
+  margin-bottom: -50px;
+}
