@@ -26,3 +26,14 @@
   bottom: 15px;
   position: absolute;
 }
+
+.container-swiper {
+  position: relative;
+  padding-top: 0px;
+  margin-bottom: 30px;
+  height: 232px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  overflow: visible;
+}
