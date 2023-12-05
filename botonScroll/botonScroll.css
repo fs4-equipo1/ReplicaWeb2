@@ -1,0 +1,21 @@
+.botonScroll{
+    border: 0px;
+    border-radius: 16px;
+    box-shadow: rgba(14, 14, 44, 0.4) 0px -1px 0px 0px inset;
+    cursor: pointer;
+    justify-content: center;
+    background-color: #1fc7d4;
+    color: #191326;
+    width: 48px;
+    height: 48px;
+    display: none;
+    position: fixed;
+}
+
+
+.cuadradoPrueba{
+    height: 1000px;
+    width: 1000px;
+    background-color: red;
+
+}
