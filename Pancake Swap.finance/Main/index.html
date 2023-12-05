@@ -11,14 +11,119 @@
     <link rel="stylesheet" href="Secciones/sección 2/ecosystem.css" />
     <link rel="stylesheet" href="buttons/buttons.css" />
     <link rel="stylesheet" href="cards/ecosystemcards.css" />
+    <link rel="stylesheet" href="swiper/primer-swiper.css" />
+    <link rel="stylesheet" href="swiper/segundo-swiper.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script src="data-theme/darklight.js"></script>
+    <script src="swiper/swiper.js"></script>
   </head>
 
   <body>
     <button onclick="toggleTheme()">Theme</button>
     <section class="fav-dex">
       <div class="container-XXL">
+        <div class="container-swiper">
+          <!-- SWIPER -->
+          <div class="swiper carrusel">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div
+                  class="sw-card-container"
+                  style="background-image: url('Assets/Images/vecake-bg.png')"
+                >
+                  <h3 class="titulo-card">Pancakeswap</h3>
+                  <p class="paragraph">card 1</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="sw-card-container"
+                  style="background-image: url(2-primerswiper.png)"
+                >
+                  <div class="sw-content">
+                    <div class="logo-card-2"></div>
+                    <div class="titulo-card-2">
+                      PancakeSwap Gaming Marketplace
+                    </div>
+                    <div class="text-card-2">Explore Your</div>
+                    <div class="button-card-2">Try Now</div>
+                    <div class="img-principal-card-2"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="sw-card-container"
+                  style="background-image: url(3-primerswiper.png)"
+                >
+                  <h3 class="titulo-card">Pancakeswap3</h3>
+                  <p class="paragraph">card3</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="sw-card-container"
+                  style="background-image: url(4-primerswiper.png)"
+                >
+                  <h3 class="titulo-card">Pancakeswap4</h3>
+                  <p class="paragraph">card 4</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="sw-card-container"
+                  style="background-image: url(5-primerswiper.png)"
+                >
+                  <h3 class="titulo-card">Pancakeswap5</h3>
+                  <p class="paragraph">card 5</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div
+                  class="sw-card-container"
+                  style="background-image: url(6-primerswiper.png)"
+                >
+                  <h3 class="titulo-card">Pancakeswap6</h3>
+                  <p class="paragraph">card 6</p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="sw-card-container" style="background-image: url()">
+                  <h3 class="titulo-card">Pancakeswap7</h3>
+                  <p class="paragraph">card 7</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+          <script>
+            const swiper = new Swiper(".swiper", {
+              // slidesPerView: 3,
+              // spaceBetween: 15,
+              autoplay: true,
+              direction: "horizontal",
+              loop: true,
+              pagination: {
+                el: ".swiper-pagination",
+                type: "bullets",
+                clickable: true,
+              },
+
+              // navigation: {
+              //   nextEl: ".swiper-button-next",
+              //   prevEl: ".swiper-button-prev",
+              // },
+              scrollbar: {
+                el: ".swiper-scrollbar",
+              },
+            });
+          </script>
+          <!------------->
+        </div>
         <div class="changing-banner"></div>
         <div class="fav-dex-content">
           <div class="fav-dex-text-container">
@@ -275,9 +380,8 @@
                     src="Assets/Images/trade-swap.png"
                   />
                 </figure>
-                  <p><b>Swap</b></p>
-                  <p>Trade crypto instantly across multiple chains</p>
-
+                <p><b>Swap</b></p>
+                <p>Trade crypto instantly across multiple chains</p>
               </div>
               <a class="ecosystemCardlink" href="#">Trade Now ></a>
             </div>
