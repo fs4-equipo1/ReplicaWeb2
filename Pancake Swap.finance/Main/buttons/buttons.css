@@ -1,88 +1,47 @@
-@import "Pancake Swap.finance/Main/root.css";
-  .button{
+@import 'root.css';
 
-    border: 3px solid;
-    border-radius: 16px;
-    padding: 0px 24px;
+.button {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 
-    cursor: pointer;
-    display: inline-flex;
+  padding: 12px 24px;
+  border-radius: 16px;
 
-    font-family: inherit;
-    font-size: 16px;
-    justify-content: center;
-    letter-spacing: 0.03em;
-    line-height: 1;
-    opacity: 1;
-    outline: 0px;
+  font-family: inherit;
+  font-size: 16px;
 
-    transition: 0.2s ease;
-    box-shadow: #0e0e2c66 0px -1px 0px 0px inset;
+  letter-spacing: 0.03em;
+  line-height: 1;
 
+  transition: 0.2s ease;
 
-  }
-  .btnTransparent {
-    position: relative;
-    align-items: center;
-    cursor: pointer;
-    display: inline-flex;
+  cursor: pointer;
 
-    background-color: transparent;
- 
-    border-color: var(--colors-primary);
-    color: var(--colors-primary0f);
-  }
-  
-  .btnBlue {
-
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 600;
-    justify-content: center;
-    letter-spacing: 0.03em;
-    line-height: 1;
-    opacity: 1;
-    outline: 0px;
-    transition: 0.2s ease 0s, opacity 0.2s ease 0s;
-    height: 48px;
-    padding: 0px 24px;
-    background-color: var(--colors-primary);
-    color: var(--colors-primary0f);
-    margin-right: 8px;
-  }
-  
-  .btnWhite {
-    position: relative;
-    align-items: center;
-    border: 0px;
-    border-radius: 16px;
-    cursor: pointer;
-    display: inline-flex;
-    font-family: inherit;
-    font-size: 16px;
-    font-weight: 600;
-    justify-content: center;
-    letter-spacing: 0.03em;
-    line-height: 1;
-    opacity: 1;
-    outline: 0px;
-    transition: 0.2s ease 0s, opacity 0.2s ease 0s;
-    height: 48px;
-    padding: 0px 24px;
-    background-color: var(--colors-white);
-    color: var(--colors-primary);
-    margin-right: 8px;
-  }
-  
-  .btnTransparent:hover {
+  &:hover {
     opacity: 0.65;
   }
-  
-  .btnBlue:hover {
-    opacity: 0.65;
-  }
-  
-  .btnWhite:hover {
-    opacity: 0.65;
-  }
-  
+}
+
+.transparent {
+  align-items: center;
+  justify-content: center;
+  display: inline-flex;
+  font-family: inherit;
+
+  color: var(--colors-primary);
+  background-color: transparent;
+  border: 3px solid var(--colors-primary);
+}
+
+.blue {
+  background-color: #1fc7d4;
+  color: var(--colors-light-invertedContrast);
+
+  box-shadow: rgba(14, 14, 44, 0.4) 0px -1px 0px 0px inset;
+}
+
+.white {
+  background-color: white;
+  color: #1fc7d4;
+}

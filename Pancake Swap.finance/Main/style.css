@@ -1,4 +1,4 @@
-@import "Pancake Swap.finance/Main/root.css";
+@import "root.css";
 
 @font-face {
   font-family: Kanit;
@@ -10,6 +10,7 @@ body {
   width: 100vw;
   margin: 0;
   font-family: Kanit;
+  background-color: var(--colors-background);
 }
 
 p {
@@ -18,7 +19,7 @@ p {
 
 .text24px {
   font-size: 24px;
-  color: rgb(122, 110, 170);
+  color: var(--colors-secondary);
   font-weight: 600;
   max-width: 600px;
   margin-bottom: 24px;

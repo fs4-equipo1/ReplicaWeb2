@@ -1,4 +1,5 @@
-  .discoverEcosystem {
+@import 'root.css';
+.discoverEcosystem {
     width: 100vw;
     height: auto;
 

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="root.css">
+    <title>Theme Switcher</title>
+    <style>
+        body {
+            transition: background-color 0.3s;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: var(--colors-background);
+            border-radius: var(--radii-card);
+            transition: background-color 0.3s;
+        }
+
+        button {
+            padding: 10px;
+            background-color: var(--colors-primary);
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            border-radius: var(--radii-small);
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: var(--colors-primaryBright);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Theme Switcher</h1>
+        <button onclick="toggleTheme()">Toggle Theme</button>
+    </div>
+
+    <script>
+        function toggleTheme() {
+            const html = document.documentElement;
+            const currentTheme = html.getAttribute('data-theme');
+
+            // Toggle between light and dark themes
+            const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+
+            // Update the data-theme attribute
+            html.setAttribute('data-theme', newTheme);
+        }
+    </script>
+</body>
+</html>

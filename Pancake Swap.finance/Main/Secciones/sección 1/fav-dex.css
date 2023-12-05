@@ -1,4 +1,4 @@
-@import "Pancake Swap.finance/Main/root.css";
+@import 'root.css';
 
 .fav-dex {
   width: 100%;
@@ -33,7 +33,7 @@
 }
 
 .XL-title {
-  color: var(--colors-light-text);
+  color: var(--colors-text);
   font-size: 88px;
   font-weight: 600;
   line-height: 1.1;
@@ -45,11 +45,11 @@
 .XL-purple-title {
   display: flex;
   flex-direction: row;
-  color: var(--colors-light-secondary);
+  color: var(--colors-textSubtle);
 }
 .XL-last-title {
   margin-left: 8px;
-  color: var(--colors-light-text);
+  color: var(--colors-text);
 }
 
 .button-container-row {

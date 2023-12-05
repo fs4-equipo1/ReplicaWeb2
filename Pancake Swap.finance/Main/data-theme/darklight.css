@@ -1,0 +1,32 @@
+@import 'root.css';
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--colors-primary);
+    color:var(--colors-white);
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: var(--colors-secondary);
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+button {
+    padding: 10px;
+    background-color: var(--colors-primary);
+    color: var(--colors-white);
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--colors-primary0f);
+}

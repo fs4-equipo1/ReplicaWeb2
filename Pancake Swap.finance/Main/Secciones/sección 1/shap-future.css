@@ -1,4 +1,4 @@
-@import "root.css";
+@import 'root.css';
 
 @font-face {
   font-family: Kanit;
@@ -44,13 +44,13 @@ p {
 }
 
 .sub-title-32 > .title-top {
-  color: var(--colors-light-text);
+  color: var(--colors-text);
   font-size: 32px;
   font-weight: 600;
 }
 
 .sub-title-32 > .second-title {
-  color: var(--colors-light-text);
+  color: var(--colors-text);
   font-size: 32px;
   margin-bottom: var(--space-48px);
   font-weight: 600;
@@ -73,13 +73,13 @@ p {
 }
 
 .total-title {
-  color: var(--colors-light-text);
+  color: var(--colors-text);
   font-size: var(--fontSizes-20px);
   font-weight: 600;
 }
 
 .total-numbers {
-  color: var(--colors-light-secondary);
+  color: var(--colors-secondary);
   font-weight: 600;
   height: 44px;
   font-size: var(--fontSizes-40px);
@@ -89,7 +89,7 @@ p {
 }
 
 .last-days {
-  color: var(--colors-light-textSubtle);
+  color: var(--colors-textSubtle);
   font-weight: 600;
   font-size: var(--fontSizes-16px);
 }
@@ -145,7 +145,7 @@ p {
 }
 
 .token-name {
-  color: #fff;
+  color: var(--colors-white);
   line-height: 1.5;
   margin-left: 10px;
   font-weight: 600;

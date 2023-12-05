@@ -1,4 +1,4 @@
-@import "/home/athan/Develhope-Studying/Equipo1/ReplicaWeb2/PancakeSwap/ReplicaWeb2/Pancake Swap.finance/Main/root.css";
+@import 'root.css';
 @media (min-width: 1024px) {
   .ecosystemCard-container {
     width: auto;
